@@ -1,14 +1,14 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", ">= 4.1.1"
 gem "bundler"
 
 group :jekyll_plugins do
     # RSS Feed Generation
-    gem "jekyll-feed"
+    gem "jekyll-feed", ">= 0.15.0"
 
     # i18n Support
-    gem "jekyll-polyglot"
+    gem "jekyll-polyglot", ">= 1.3.3"
 end
 
 # WebP Generator
@@ -16,10 +16,10 @@ end
 #gem "jekyll-webp"
 
 # Emojis
-gem "jemoji"
+gem "jemoji", ">= 0.12.0"
 
 # Sitemap
-gem "jekyll-sitemap"
+gem "jekyll-sitemap", ">= 1.4.0"
 
 # External Testing
 gem "html-proofer"
