@@ -16,10 +16,10 @@ end
 #gem "jekyll-webp"
 
 # Emojis
-gem "jemoji"
+gem "jemoji", ">= 0.13.0"
 
 # Sitemap
 gem "jekyll-sitemap"
 
 # External Testing
-gem "html-proofer"
+gem "html-proofer", ">= 3.16.0"
