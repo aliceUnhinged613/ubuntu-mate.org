@@ -22,4 +22,4 @@ gem "jemoji"
 gem "jekyll-sitemap"
 
 # External Testing
-gem "html-proofer"
+gem "html-proofer", ">= 3.19.3"
